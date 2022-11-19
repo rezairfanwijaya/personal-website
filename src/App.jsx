@@ -1,12 +1,13 @@
 import './App.css';
 import './style/style.css'
-import NavbarComp from './components/navbar/NavbarComp';
 import React from 'react';
-import 'rsuite/dist/rsuite.min.css';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (<>
-    <NavbarComp/>
+    <div className="body bg-[#161616]">
+      <Navbar />
+    </div>
   </>
   );
 }
