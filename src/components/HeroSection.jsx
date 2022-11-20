@@ -1,16 +1,19 @@
-import herosectionImage from '../assets/image/herroSection.png'
+// * import assets
 import emailImage from '../assets/image/email.svg'
 import linkedinImage from '../assets/image/linkedin.svg'
 import githubImage from '../assets/image/github.svg'
-import astronot from '../assets/animation/astronot.gif'
+import coba from '../assets/animation/astronot.webm'
 
 const HeroSection = () => {
     return (
         <>
-            <div className="hero-section my-5 grid grid-cols-1 gap-11 md:grid-cols-2 md:my-0 lg:gap-0 place-items-center">
+            <div className="hero-section my-5 grid grid-cols-1 gap-11 md:grid-cols-2 md:my-16 lg:my-0 lg:gap-0 place-items-center">
                 {/* hero image */}
                 <div className="left">
-                    <img src={astronot} alt="hero-image" className='h-max md:h-96 lg:h-max lg:ml-8' />
+                    {/* <img src={astronot} alt="hero-image" className='h-max md:h-96 lg:h-max lg:ml-8' /> */}
+                    <video playsInline autoPlay muted loop>
+                        <source src={coba} type='video/webm'/>
+                    </video>
                 </div>
 
                 {/* intro */}

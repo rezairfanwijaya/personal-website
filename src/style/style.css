@@ -961,6 +961,11 @@ video {
     margin-bottom: 1.5rem;
   }
 
+  .lg\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .lg\:ml-8 {
     margin-left: 2rem;
   }
