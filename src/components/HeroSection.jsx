@@ -2,7 +2,7 @@
 import emailImage from '../assets/image/email.svg'
 import linkedinImage from '../assets/image/linkedin.svg'
 import githubImage from '../assets/image/github.svg'
-import coba from '../assets/animation/astronot.webm'
+import heroAnimation from '../assets/animation/astronot.webm'
 
 const HeroSection = () => {
     return (
@@ -11,7 +11,7 @@ const HeroSection = () => {
                 {/* hero image */}
                 <div className="left">
                     <video playsInline autoPlay muted loop>
-                        <source src={coba} type='video/webm'/>
+                        <source src={heroAnimation} type='video/webm'/>
                     </video>
                 </div>
 
