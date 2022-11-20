@@ -31,8 +31,8 @@ const Navbar = () => {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start md:justify-between ">
-                <div className="flex flex-shrink-0 items-center">
+              <div className="flex flex-1 items-center justify-end sm:items-stretch sm:justify-start md:justify-between ">
+                <div className="flex flex-shrink-0 items-end">
                   <a href="#">
                     <img
                       className="block h-8 w-auto"
