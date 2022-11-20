@@ -11,7 +11,7 @@ import NotificationUnderDevelopement from './components/Notification';
 
 function App() {
   return (<>
-    <div className="body bg-[#161616] mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div className="body bg-[#161616] mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 font-Inter">
       <NotificationUnderDevelopement />
       <Navbar />
       <HeroSection />

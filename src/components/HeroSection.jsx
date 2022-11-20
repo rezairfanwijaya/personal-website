@@ -31,7 +31,7 @@ const HeroSection = () => {
                     <div className="link-to-socmed flex gap-5 items-center">
                         {/* email */}
                         <div className="email-me grid">
-                            <a href="mailto: rezairfanwijaya23@gmail.com" className='flex justify-between gap-1 items-center bg-[#6741B5] px-5 py-3 rounded-sm hover:bg-[#482A83]' target={'blank'}>
+                            <a href="mailto: rezairfanwijaya23@gmail.com" className='hover:no-underline flex justify-between gap-1 items-center bg-[#6741B5] px-5 py-3 rounded-sm hover:bg-[#482A83]' target={'blank'}>
                                 <div className="icon">
                                     <img src={emailImage} alt="eamil-icon" className='h-4' />
                                 </div>

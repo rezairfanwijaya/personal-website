@@ -50,8 +50,8 @@ const Navbar = () => {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-sm text-sm font-medium hover:bg-[#6B3BCB]'
+                          item.current ? 'bg-gray-900 text-white' : ' text-gray-300 hover:bg-gray-700 hover:text-white',
+                          'px-3 py-2 rounded-sm text-sm font-medium hover:bg-[#6B3BCB] hover:no-underline'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
@@ -74,7 +74,7 @@ const Navbar = () => {
                   href={item.href}
                   className={classNames(
                     item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-[#6B3BCB] hover:text-white',
-                    'block px-3 py-2 rounded-md text-base font-medium text-center'
+                    'block px-3 py-2 rounded-md text-base font-medium text-center hover:no-underline'
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >
