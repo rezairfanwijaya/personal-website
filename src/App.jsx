@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import NotificationUnderDevelopement from './components/Notification';
 import Path from './components/Path';
+import Summary from './components/Summary';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <Path />
+      <Summary/>
     </div>
   </>
   );
