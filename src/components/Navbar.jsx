@@ -20,7 +20,7 @@ const Navbar = () => {
     <Disclosure as="nav" className="bg-[#161616]">
       {({ open }) => (
         <>
-          <div className="">
+          <div id="home">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -35,7 +35,7 @@ const Navbar = () => {
               </div>
               <div className="flex flex-1 items-center justify-end sm:items-stretch sm:justify-start md:justify-between ">
                 <div className="flex flex-shrink-0 items-end">
-                  <a href="#">
+                  <a href="#home">
                     <img
                       className="block h-8 w-auto"
                       src={logo}
