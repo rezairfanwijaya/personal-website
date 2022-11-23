@@ -8,6 +8,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import NotificationUnderDevelopement from './components/Notification';
+import Path from './components/Path';
+
 
 function App() {
   return (<>
@@ -15,6 +17,7 @@ function App() {
       <NotificationUnderDevelopement />
       <Navbar />
       <HeroSection />
+      <Path />
     </div>
   </>
   );
