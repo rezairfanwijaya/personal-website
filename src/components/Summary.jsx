@@ -33,7 +33,7 @@ const Summary = () => {
                     </a>
                     <div className="group certificate flex flex-col gap-1 p-5 md:p-6 lg:p-10 lg:gap-2 bg-[#303030] border-sm w-1/2 hover:bg-[#6B3BCB]">
                         <p className="total text-center font-bold text-[#763EE7] text-3xl lg:text-5xl group-hover:text-white">33</p>
-                        <div className="text text-center text-[#C0C0C0] tracking-wider text-xs lg:tracking-wider lg:text-[.9rem] group-hover:text-white">Training Certificates</div>
+                        <div className="text text-center text-[#C0C0C0] tracking-wider text-xs lg:tracking-wider lg:text-[.9rem] group-hover:text-white">Certificates</div>
                     </div>
                 </div>
             </div>
