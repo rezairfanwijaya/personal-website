@@ -2,7 +2,7 @@ import cv from '../assets/pdf/CV_REZAIRFANWIJAYA_BACKEND.pdf'
 
 const Summary = () => {
     return (<>
-        <div className="summary flex flex-col md:items-center md:flex-row my-8 md:gap-5 lg:px-28">
+        <div className="summary flex flex-col md:items-center md:flex-row my-8 md:gap-5 lg:px-28" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
             {/* left */}
             <div className="left flex flex-col gap-1 p-12 md:w-1/2">
                 <p className="total-year font-extrabold text-[#763EE7] text-4xl text-center lg:text-6xl">01</p>

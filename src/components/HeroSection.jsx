@@ -7,11 +7,11 @@ import heroAnimation from '../assets/animation/astronot.webm'
 const HeroSection = () => {
     return (
         <>
-            <div className="hero-section my-5 grid grid-cols-1 gap-11 md:grid-cols-2 md:my-16 lg:my-0 lg:gap-0 place-items-center">
+            <div className="hero-section my-5 grid grid-cols-1 gap-11 md:grid-cols-2 md:my-16 lg:my-0 lg:gap-0 place-items-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
                 {/* hero image */}
                 <div className="left">
                     <video playsInline autoPlay muted loop>
-                        <source src={heroAnimation} type='video/webm'/>
+                        <source src={heroAnimation} type='video/webm' />
                     </video>
                 </div>
 

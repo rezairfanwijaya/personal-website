@@ -20,7 +20,7 @@ const Path = () => {
         }
     ]
     return (<>
-        <div className="path flex flex-col gap-3 my-9 md:my-14 md:flex-row md:gap-5 lg:px-28 lg:my-0 lg:mb-12">
+        <div className="path flex flex-col gap-3 my-9 md:my-14 md:flex-row md:gap-5 lg:px-28 lg:my-0 lg:mb-12" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
             {paths.map((path) => (
                 <CardPath
                     key={path.id}

@@ -17,10 +17,10 @@ const Navbar = () => {
 
 
   return (<>
-    <Disclosure as="nav" className="bg-[#161616]">
+    <Disclosure as="nav" className="bg-[#161616]" >
       {({ open }) => (
         <>
-          <div id="home">
+          <div id="home" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
