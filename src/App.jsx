@@ -10,6 +10,7 @@ import HeroSection from './components/HeroSection';
 import NotificationUnderDevelopement from './components/Notification';
 import Path from './components/Path';
 import Summary from './components/Summary';
+import BackToTop from './components/BackToTop';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <NotificationUnderDevelopement />
       <Navbar />
       <HeroSection />
+      <BackToTop/>
       <Path />
       <Summary/>
     </div>
