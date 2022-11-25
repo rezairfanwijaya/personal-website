@@ -11,17 +11,19 @@ import NotificationUnderDevelopement from './components/Notification';
 import Path from './components/Path';
 import Summary from './components/Summary';
 import BackToTop from './components/BackToTop';
+import ScrollProgressBar from './components/ScrollProgressBar';
 
 
 function App() {
   return (<>
+    <ScrollProgressBar />
     <div className="body bg-[#161616] mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 font-Inter">
       <NotificationUnderDevelopement />
       <Navbar />
       <HeroSection />
-      <BackToTop/>
+      <BackToTop />
       <Path />
-      <Summary/>
+      <Summary />
     </div>
   </>
   );
