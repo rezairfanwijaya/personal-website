@@ -16,7 +16,7 @@ import BackToTop from './components/BackToTop';
 function App() {
   return (<>
     <div className="body bg-[#161616] mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 font-Inter">
-      {/* <NotificationUnderDevelopement /> */}
+      <NotificationUnderDevelopement />
       <Navbar />
       <HeroSection />
       <BackToTop/>
