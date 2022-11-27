@@ -640,6 +640,18 @@ video {
   margin-bottom: 2rem;
 }
 
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
+.mt-36{
+  margin-top: 9rem;
+}
+
 .block{
   display: block;
 }
@@ -765,6 +777,10 @@ video {
   gap: 1rem;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
 .space-x-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -781,16 +797,16 @@ video {
   scroll-behavior: smooth;
 }
 
+.rounded-full{
+  border-radius: 9999px;
+}
+
 .rounded-sm{
   border-radius: 0.125rem;
 }
 
 .rounded-md{
   border-radius: 0.375rem;
-}
-
-.rounded-full{
-  border-radius: 9999px;
 }
 
 .border-red-700{
@@ -823,6 +839,15 @@ video {
   background-color: rgb(48 48 48 / var(--tw-bg-opacity));
 }
 
+.bg-\[\]{
+  background-color: ;
+}
+
+.bg-\[\#181818\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 24 / var(--tw-bg-opacity));
+}
+
 .p-2{
   padding: 0.5rem;
 }
@@ -833,6 +858,10 @@ video {
 
 .p-5{
   padding: 1.25rem;
+}
+
+.p-3{
+  padding: 0.75rem;
 }
 
 .px-2{
@@ -909,6 +938,16 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold{
@@ -1009,6 +1048,11 @@ html {
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#6B3BCB\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(107 59 203 / var(--tw-text-opacity));
 }
 
 .hover\:no-underline:hover{

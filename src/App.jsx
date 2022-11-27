@@ -12,6 +12,7 @@ import Path from './components/Path';
 import Summary from './components/Summary';
 import BackToTop from './components/BackToTop';
 import ScrollProgressBar from './components/ScrollProgressBar';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Path />
       <Summary />
     </div>
+    <Footer/>
   </>
   );
 }
