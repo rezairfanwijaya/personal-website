@@ -18,12 +18,12 @@ const HeroSection = () => {
                 {/* intro */}
                 <div className="right">
                     <div className="greeting">
-                        <p className='text-[#8D63E1] font-bold text-md lg:text-xl'>Hello, Im Reza Irfan Wijaya</p>
+                        <p className='text-primary font-bold text-md lg:text-xl'>Hello, Im Reza Irfan Wijaya</p>
                     </div>
                     <div className="role">
                         <p className='text-white font-black text-5xl lg:text-7xl'>Web Developer</p>
                     </div>
-                    <div className="intro text-[#C0C0C0] text-md my-5 leading-7 lg:my-6">
+                    <div className="intro text-white-mute text-md my-5 leading-7 lg:my-6">
                         <p>Hello, I am an informatic engineering student who has an interest in website development. For now I'm focusing on learning fullstack with Reacjs technology as the frontend and Golang as the backend.</p>
                     </div>
 
@@ -31,7 +31,7 @@ const HeroSection = () => {
                     <div className="link-to-socmed flex gap-5 items-center">
                         {/* email */}
                         <div className="email-me grid">
-                            <a href="mailto: rezairfanwijaya23@gmail.com" className='hover:no-underline flex justify-between gap-1 items-center bg-[#6741B5] px-5 py-3 rounded-sm hover:bg-[#482A83]' target={'blank'}>
+                            <a href="mailto: rezairfanwijaya23@gmail.com" className='hover:no-underline flex justify-between gap-1 items-center bg-primary px-5 py-3 rounded-sm hover:bg-primary-hover' target={'blank'}>
                                 <div className="icon">
                                     <img src={emailImage} alt="eamil-icon" className='h-4' />
                                 </div>

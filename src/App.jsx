@@ -18,7 +18,7 @@ import Footer from './components/Footer';
 function App() {
   return (<>
     <ScrollProgressBar />
-    <div className="body bg-[#161616] mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 font-Inter">
+    <div className="body bg-dark-primary mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 font-Inter">
       <NotificationUnderDevelopement />
       <Navbar />
       <HeroSection />
