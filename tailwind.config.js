@@ -12,7 +12,8 @@ module.exports = {
       'dark-card': '#191919',
       'white' : '#ffff',
       'dark-primary' : '#161616',
-      'white-mute' : '#C0C0C0'
+      'white-mute' : '#C0C0C0',
+      'dark-button-card' : '#212121'
     },
   },
   plugins: [],
