@@ -13,6 +13,7 @@ import Summary from './components/Summary';
 import BackToTop from './components/BackToTop';
 import ScrollProgressBar from './components/ScrollProgressBar';
 import Footer from './components/Footer';
+import FeaturedProjects from './components/FeaturedProjects';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <BackToTop />
       <Path />
       <Summary />
+      <FeaturedProjects/>
     </div>
     <Footer/>
   </>
