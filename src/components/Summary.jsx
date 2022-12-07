@@ -6,7 +6,7 @@ const Summary = () => {
             {/* left */}
             <div className="left flex flex-col gap-1 p-12 md:w-1/2">
                 <p className="total-year font-extrabold text-primary text-4xl text-center lg:text-6xl">01</p>
-                <div className="text-white text-lg font-bold text-center tracking-wide lg:text-2xl">Year Experience</div>
+                <div className="text-white text-lg font-bold text-center tracking-wide xl:text-3xl">Year Experience</div>
             </div>
 
             {/* right */}
