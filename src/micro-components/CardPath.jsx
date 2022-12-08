@@ -1,13 +1,13 @@
 const CardPath = ({ title, icon, desc, iconMore, url }) => {
     return (<>
-        <div className="group bg-dark-card rounded-sm md:w-1/2 hover:bg-primary">
+        <div className="group bg-dark-card rounded-sm md:w-1/2 hover:bg-primary lg:p-4 xl:p-6">
             <div className="body p-5">
                 {/* icon */}
                 <div className="icon text-primary text-5xl md:text-4xl lg:text-6xl font-bold group-hover:text-white">
                     <ion-icon name={icon}></ion-icon>
                 </div>
                 {/* title */}
-                <div className="title text-white font-bold tracking-wider text-lg">
+                <div className="title text-white font-medium xl:font-semibold tracking-wider text-lg lg:text-2xl font-Kanit">
                     <p>{title}</p>
                 </div>
                 {/* description */}

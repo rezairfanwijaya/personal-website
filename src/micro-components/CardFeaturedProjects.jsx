@@ -12,8 +12,8 @@ const CardFeaturedProject = (props) => {
             <div className="right my-3 flex flex-col gap-4 md:w-1/2  md:my-0 md:gap-7 xl:gap-11">
 
                 <div className="projects-name">
-                    <p className="text-white font-semibold  md:text-lg xl:text-xl">{props.name}</p>
-                    <p className="text-xs text-white-mute xl:text-md">{props.description}</p>
+                    <p className="text-white font-medium text-lg  md:text-lg xl:text-xl font-Kanit tracking-wider">{props.name}</p>
+                    <p className="text-xs xl:text-s text-white-mute xl:text-md">{props.description}</p>
                 </div>
 
                 <div className="projects-tech flex gap-3">
@@ -25,7 +25,7 @@ const CardFeaturedProject = (props) => {
 
                 <div className="button flex justify-between gap-6 mt-4 xl:w-3/5">
 
-                    <a href={props.linkCode} target={'_blank'} rel="noopener noreferrer" className="w-1/2 hover:text-white hover:no-underline focus:text-white focus:no-underline rounded-sm text-white code-link bg-dark-button-card p-2 flex justify-center items-center gap-4 hover:bg-primary">
+                    <a href={props.linkCode} target={'_blank'} rel="noopener noreferrer" className="w-1/2 hover:text-white hover:no-underline focus:text-white focus:no-underline rounded-sm text-white code-link bg-dark-button-card p-2 xl:p-3 flex justify-center items-center gap-4 hover:bg-primary">
                         <div className="text text-sm">code</div>
                         <div className="img">
                             <img src={codeLogo} alt="code-logo" className="w-4" />
@@ -35,7 +35,7 @@ const CardFeaturedProject = (props) => {
                     {
                         props.haveDemo
                         &&
-                        <a href={props.linkDemo} target={'_blank'} rel="noopener noreferrer" className="w-1/2 hover:text-white hover:no-underline focus:text-white focus:no-underline rounded-sm text-white code-link bg-dark-button-card p-2 flex justify-center items-center gap-4 hover:bg-primary">
+                        <a href={props.linkDemo} target={'_blank'} rel="noopener noreferrer" className="w-1/2 hover:text-white hover:no-underline focus:text-white focus:no-underline rounded-sm text-white code-link bg-dark-button-card p-2 xl:p-3 flex justify-center items-center gap-4 hover:bg-primary">
                             <div className="text text-sm">demo</div>
                             <div className="img">
                                 <img src={demoLogo} alt="code-logo" className="w-2" />

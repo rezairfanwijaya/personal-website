@@ -5,6 +5,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       'Inter': ['Inter', 'sans-serif'],
+      'Kanit' :['Kanit', 'sams-serif']
     },
     colors: {
       'primary': '#763EE7',

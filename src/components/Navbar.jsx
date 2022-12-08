@@ -7,7 +7,7 @@ const Navbar = () => {
   const navigation = [
     { name: 'Home', href: '#', current: false },
     { name: 'About', href: '#', current: false },
-    { name: 'Project', href: '#', current: false },
+    { name: 'Project', href: '#projects', current: false },
     { name: 'Contact', href: '#', current: false },
   ]
   
@@ -31,7 +31,7 @@ const Navbar = () => {
                   ) : (
                     <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
                   )}
-                </Disclosure.Button>
+                </Disclosure.Button>  
               </div>
               <div className="flex flex-1 items-center justify-end sm:items-stretch sm:justify-start md:justify-between ">
                 <div className="flex flex-shrink-0 items-end">
@@ -50,8 +50,8 @@ const Navbar = () => {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'hover:text-white',
-                          'text-white px-3 py-2 rounded-sm text-sm font-medium hover:bg-primary hover:no-underline active:text-white focus:text-white focus:no-underline'
+                          item.current ? 'bg-gray-900 text-white font-Kanit' : 'hover:text-white',
+                          'text-white font-Kanit px-3 py-2 rounded-sm text-[16px] font-medium  hover:bg-primary hover:no-underline active:text-white focus:text-white focus:no-underline'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >

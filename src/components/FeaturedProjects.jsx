@@ -60,31 +60,30 @@ const FeaturedProjects = () => {
 
 
     return (<>
-        <div className="featured-projects mt-14 lg:px-28 flex flex-col gap-7" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
-            <div className="header">
-                <div className="title">
-                    <p className="text-white font-bold text-2xl xl:text-3xl">Featured Projects</p>
+        <section id="projects">
+            <div className="featured-projects mt-14 lg:px-28 flex flex-col gap-7" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+                <div className="header">
+                    <div className="title">
+                        <p className="text-white font-semibold font-Kanit text-2xl tracking-wide lg:tracking-wider xl:text-4xl">Featured Projects</p>
+                    </div>
                 </div>
-                <div className="desc mt-1 md:w-3/5 xl:w-5/12">
-                    <p className="text-white-mute text-xs xl:text-md">Some examples of projects that I have worked on using Reactjs and Golang technologies</p>
-                </div>
-            </div>
 
-            <div className="projects flex flex-col gap-12">
-                {featuredProjects.map((featuredProject) => (
-                    <CardFeaturedProject
-                        id={featuredProject.id}
-                        thumbnail={featuredProject.thumbnail}
-                        name={featuredProject.name}
-                        description={featuredProject.description}
-                        tech={featuredProject.tech}
-                        haveDemo={featuredProject.haveDemo}
-                        linkCode={featuredProject.linkCode}
-                        linkDemo={featuredProject.linkDemo}
-                    />
-                ))}
+                <div className="projects flex flex-col gap-12">
+                    {featuredProjects.map((featuredProject) => (
+                        <CardFeaturedProject
+                            id={featuredProject.id}
+                            thumbnail={featuredProject.thumbnail}
+                            name={featuredProject.name}
+                            description={featuredProject.description}
+                            tech={featuredProject.tech}
+                            haveDemo={featuredProject.haveDemo}
+                            linkCode={featuredProject.linkCode}
+                            linkDemo={featuredProject.linkDemo}
+                        />
+                    ))}
+                </div>
             </div>
-        </div>
+        </section>
     </>);
 }
 
