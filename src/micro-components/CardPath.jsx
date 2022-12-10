@@ -1,6 +1,6 @@
 const CardPath = ({ title, icon, desc, iconMore, url }) => {
     return (<>
-        <div className="group bg-dark-card rounded-sm md:w-1/2 hover:bg-primary lg:p-4 xl:p-6">
+        <div className="group bg-dark-card-hover rounded-sm md:w-1/2 hover:bg-primary lg:p-4 xl:p-6">
             <div className="body p-5">
                 {/* icon */}
                 <div className="icon text-primary text-5xl md:text-4xl lg:text-6xl font-bold group-hover:text-white">

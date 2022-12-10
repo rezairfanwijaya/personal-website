@@ -1,6 +1,6 @@
 const Footer = () => {
     return (<>
-        <div className="footer bg-[#181818] text-2xl flex gap-5 justify-center p-3 mt-36">
+        <div className="footer bg-dark-decoration text-2xl flex gap-5 justify-center p-3 mt-20">
             <a href="https://github.com/rezairfanwijaya" target={'_blank'}>
                 <div className="github text-white hover:text-[#6B3BCB]">
                     <ion-icon name="logo-github"></ion-icon>
