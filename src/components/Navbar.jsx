@@ -6,9 +6,8 @@ import logo from '../assets/image/logo.png'
 const Navbar = () => {
   const navigation = [
     { name: 'Home', href: '#', current: false },
-    { name: 'About', href: '#', current: false },
     { name: 'Project', href: '#projects', current: false },
-    { name: 'Contact', href: '#', current: false },
+    { name: 'Contact', href: '#contact', current: false },
   ]
   
   function classNames(...classes) {
