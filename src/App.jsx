@@ -14,6 +14,7 @@ import BackToTop from './components/BackToTop';
 import ScrollProgressBar from './components/ScrollProgressBar';
 import Footer from './components/Footer';
 import FeaturedProjects from './components/FeaturedProjects';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -26,9 +27,10 @@ function App() {
       <BackToTop />
       <Path />
       <Summary />
-      <FeaturedProjects/>
+      <FeaturedProjects />
+      <Contact />
     </div>
-    <Footer/>
+    <Footer />
   </>
   );
 }
