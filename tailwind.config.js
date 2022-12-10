@@ -10,11 +10,14 @@ module.exports = {
     colors: {
       'primary': '#763EE7',
       'primary-hover' :'#482A83',
-      'dark-card': '#191919',
       'white' : '#ffff',
-      'dark-primary' : '#161616',
       'white-mute' : '#C0C0C0',
-      'dark-button-card' : '#212121'
+      'dark-card-hover': '#191919',
+      'dark-primary' : '#161616',
+      'dark-button-card' : '#212121',
+      'dark-decoration' : '#181818',
+      'dark-shadow' :'#131313',
+      'dark-decoration-contact' : '#303030'
     },
   },
   plugins: [],
