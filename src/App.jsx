@@ -16,21 +16,34 @@ import Footer from './components/Footer';
 import FeaturedProjects from './components/FeaturedProjects';
 import Contact from './components/Contact';
 
+// ! import library
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import FrontendProject from './components/FrontendProject';
+
 
 function App() {
   return (<>
-    <ScrollProgressBar />
-    <div className="body bg-dark-primary mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 font-Inter">
-      <NotificationUnderDevelopement />
-      <Navbar />
-      <HeroSection />
-      <BackToTop />
-      <Path />
-      <Summary />
-      <FeaturedProjects />
-      <Contact />
-    </div>
-    <Footer />
+    <Router>
+      {/* <ScrollProgressBar /> */}
+      <div className="body bg-dark-primary mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 font-Inter">
+        <Switch>
+          <Route exact path={"/"}>
+            <NotificationUnderDevelopement />
+            <Navbar />
+            <HeroSection />
+            <BackToTop />
+            <Path />
+            <Summary />
+            <FeaturedProjects />
+            <Contact />
+          </Route>
+          <Route path={"/frontend"}>
+            <FrontendProject />
+          </Route>
+        </Switch>
+      </div>
+      <Footer />
+    </Router>
   </>
   );
 }
