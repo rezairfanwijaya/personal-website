@@ -8,7 +8,7 @@ const Path = () => {
             'icon': 'code-slash-outline',
             'desc': 'Managed to make a website with React js and apply the public api',
             'iconMore': 'chevron-forward-outline',
-            'url': 'https://www.linkedin.com/in/rezairfanwijaya/'
+            'url': '/frontend'
         },
         {
             'id': 2,
