@@ -5,7 +5,7 @@ import logo from '../assets/image/logo.png'
 
 const Navbar = () => {
   const navigation = [
-    { name: 'Home', href: '#', current: false },
+    { name: 'Home', href: '/', current: false },
     { name: 'Project', href: '#projects', current: false },
     { name: 'Contact', href: '#contact', current: false },
   ]
@@ -38,7 +38,7 @@ const Navbar = () => {
                     <img
                       className="block h-8 w-auto"
                       src={logo}
-                      alt="Your Company"
+                      alt="logo"
                     />
                   </a>
                 </div>
