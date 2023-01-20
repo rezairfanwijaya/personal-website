@@ -16,7 +16,7 @@ const Path = () => {
             'icon': 'git-compare-outline',
             'desc': 'Create a restfull api using golang for the frontend to consume',
             'iconMore': 'chevron-forward-outline',
-            'url': 'https://www.linkedin.com/in/rezairfanwijaya/'
+            'url': '/backend'
         }
     ]
     return (<>
