@@ -1,6 +1,3 @@
-// ! import library
-import { Link } from "react-router-dom";
-
 const CardPath = ({ title, icon, desc, iconMore, url }) => {
     return (<>
         <div className="group bg-dark-card-hover rounded-sm md:w-1/2 hover:bg-primary lg:p-4 xl:p-6">
@@ -18,12 +15,12 @@ const CardPath = ({ title, icon, desc, iconMore, url }) => {
                     <p>{desc}</p>
                 </div>
                 {/* button */}
-                <Link to={url} className="button text-dec flex items-center gap-4 w-max py-3 px-5 rounded-sm bg-primary text-white hover:no-underline group-hover:bg-white group-hover:text-primary focus:text-white">
+                <a href={url} className="button text-dec flex items-center gap-4 w-max py-3 px-5 rounded-sm bg-primary text-white hover:no-underline group-hover:bg-white group-hover:text-primary focus:text-white">
                     <div className="text">
                         Know More
                     </div>
                     <ion-icon name={iconMore}></ion-icon>
-                </Link>
+                </a>
             </div>
         </div>
     </>);
