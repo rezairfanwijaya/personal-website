@@ -19,6 +19,7 @@ import Contact from './components/Contact';
 // ! import library
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import FrontendProject from './components/FrontendProject';
+import BackendProjects from './components/BackendProject';
 
 
 function App() {
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path={"/frontend"}>
             <FrontendProject />
+          </Route>
+          <Route path={"/backend"}>
+            <BackendProjects />
           </Route>
         </Switch>
       </div>

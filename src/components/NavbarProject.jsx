@@ -4,7 +4,7 @@ import logo from '../assets/image/logo.png'
 
 const NavbarProject = () => {
     return (<>
-        <div className="navbar-project bg-dark-primary flex justify-between py-5">
+        <div className="navbar-project bg-dark-primary flex justify-between py-5" data-aos="fade-down" data-aos-delay="50" data-aos-duration="1500" id='home'>
             <div className="logo">
                 <Link to={"/"}>
                     <img

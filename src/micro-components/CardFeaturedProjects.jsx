@@ -3,7 +3,7 @@ import demoLogo from '../assets/image/demo.png'
 
 const CardFeaturedProject = (props) => {
     return (<>
-    <div className="card bg-dark-primary lg:hover:bg-dark-card-hover md:drop-shadow-lg md:bg-dark-card md:flex md:gap-4 md:p-6 md:border-sm xl:gap-9 relative z-10" key={props.id}>
+    <div className="card bg-dark-primary lg:hover:bg-dark-card-hover md:drop-shadow-lg md:bg-dark-card md:flex md:gap-4 md:p-6 md:border-sm xl:gap-9 relative z-10" key={props.id} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
 
             <div className="left md:w-1/2">
                 <img src={props.thumbnail} alt="snake-game" className="rounded-sm" />
