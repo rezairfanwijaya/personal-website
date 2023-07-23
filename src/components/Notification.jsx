@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Notification, Placeholder } from "rsuite";
 
 const NotificationUnderDevelopement = () => {
-    const [IsDevelop] = useState(true)
+    const [IsDevelop] = useState(false)
 
     return (<>
         {IsDevelop &&

@@ -20,6 +20,7 @@ import Contact from './components/Contact';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import FrontendProject from './components/FrontendProject';
 import BackendProjects from './components/BackendProject';
+import CompletedProject from './components/CompletedProject';
 
 
 function App() {
@@ -43,6 +44,9 @@ function App() {
           </Route>
           <Route path={"/backend"}>
             <BackendProjects />
+          </Route>
+          <Route path={"/completed-project"}>
+            <CompletedProject />
           </Route>
         </Switch>
       </div>

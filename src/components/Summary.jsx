@@ -13,10 +13,10 @@ const Summary = () => {
             <div className="right border-red-700 flex flex-col gap-3 md:w-1/2 ">
                 {/* top */}
                 <div className="top flex gap-3 cursor-pointer">
-                    <div className="group complete-project flex flex-col gap-1 p-5 md:p-6 lg:p-11 lg:gap-2 bg-dark-card-hover border-sm w-1/2 hover:bg-primary">
-                        <p className="total text-center font-bold text-primary text-3xl lg:text-4xl xl:text-5xl group-hover:text-white">06</p>
+                    <a href='/completed-project' className="group complete-project flex flex-col gap-1 p-5 md:p-6 lg:p-11 lg:gap-2 bg-dark-card-hover border-sm w-1/2 hover:bg-primary hover:no-underline">
+                        <p className="total text-center font-bold text-primary text-3xl lg:text-4xl xl:text-5xl group-hover:text-white">09</p>
                         <div className="text text-center text-white-mute tracking-wide text-xs lg:tracking-wider xl:text-[.9rem] group-hover:text-white">Completed Projects</div>
-                    </div>
+                    </a>
                     <div className="group skill-programming flex flex-col gap-1 p-5 md:p-6 lg:p-10 lg:gap-2 bg-dark-card-hover border-sm w-1/2 hover:bg-primary">
                         <p className="total text-center font-bold text-primary text-3xl lg:text-4xl xl:text-5xl group-hover:text-white">08</p>
                         <div className="text text-center text-[#C0C0C0] tracking-wider text-xs lg:tracking-wider xl:text-[.9rem] group-hover:text-white">Skills Programming</div>
