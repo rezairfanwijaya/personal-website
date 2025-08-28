@@ -1,4 +1,4 @@
-import cv from '../assets/pdf/CV_REZAIRFANWIJAYA_BACKEND.pdf'
+import cv from '../assets/pdf/CV_REZAIRFANWIJAYA_SOFTWARE_ENGINEER.pdf'
 
 const Summary = () => {
     return (<>
